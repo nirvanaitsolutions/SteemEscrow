@@ -8,7 +8,7 @@ You may ask if there is already one project exists why another. The answer is my
 STEEM has a escrow service built into it's blockchain which is little known and very little talked about. While checking Steem JS API documentation I noticed API endpoints for Escrow and wanted to built something on it as hobby project. After bit of searching I found @xtar's project but that wasn't working. As the beauty of opensource project - I read through his codes and wanted to modify it to work and serve my need.
 
 ## How it works
-At first a Steemit.com user need to visit https://codebull.github.io/SteemEscrow/ or any self-hosted version of this porject with respective agent list and create a escrow transaction using his/her Active private key. If the transaction creation is successful, there will be an URL for escrow control panel, which the sender needs to send to the receiver and the agent of the transaction for their approval.
+At first a Steemit.com user need to visit https://nirvanaitsolutions.github.io/SteemEscrow/ or any self-hosted version of this porject with respective agent list and create a escrow transaction using his/her Active private key. If the transaction creation is successful, there will be an URL for escrow control panel, which the sender needs to send to the receiver and the agent of the transaction for their approval.
 
 If any of them does not approve the transaction, the escrow transaction will be canceled. If both of the receiver and agent approves, transaction will go through and within the transaction warranty period sender and receiver can release and return the fund to receiver or sender repectively. If any of the sender and receiver dispute the transaction then agent will decided who to send the fund.
 
